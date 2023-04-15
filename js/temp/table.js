@@ -8,9 +8,9 @@ export let isiTabel = `<tbody>
   </td>
   <td>
     <div class="w-auto">
-        <p class="font-semibold text-coolGray-800">#NAMAANAK#</p>
-        <p class="font-semibold text-coolGray-800">#NPM#</p>
-        <p class="font-medium text-coolGray-500">#NOHPANAK#</p>
+        <p class="text-xs font-semibold text-coolGray-800">#NAMAANAK#</p>
+        <p class="text-xs font-semibold text-coolGray-800">#NPM#</p>
+        <p class="text-xs font-medium text-coolGray-500">#NOHPANAK#</p>
     </div>
   </td>
   <td class="text-left">#TEMA#</td>
