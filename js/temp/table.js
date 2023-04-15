@@ -15,6 +15,6 @@ export let isiTabel = `<tbody>
   </td>
   <td class="text-left">#TEMA#</td>
   <td>#TANGGAL#</td>
-  <td class="text-right">#HARI#</td>
+  <td>#HARI#</td>
 </tr>
 </tbody>`;
