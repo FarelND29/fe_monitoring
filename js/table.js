@@ -1,0 +1,20 @@
+export let isiTabel = `<tbody>
+<tr>
+  <td>
+    <div class="w-auto">
+        <p class="text-xs font-semibold text-coolGray-800">#NAMAORTU#</p>
+        <p class="text-xs font-medium text-coolGray-500">#NOHPORTU#</p>
+    </div>
+  </td>
+  <td>
+    <div class="w-auto">
+        <p class="font-semibold text-coolGray-800">#NAMAANAK#</p>
+        <p class="font-semibold text-coolGray-800">#NPM#</p>
+        <p class="font-medium text-coolGray-500">#NOHPANAK#</p>
+    </div>
+  </td>
+  <td class="text-left">#TEMA#</td>
+  <td>#TANGGAL#</td>
+  <td class="text-right">#HARI#</td>
+</tr>
+</tbody>`;
