@@ -14,6 +14,12 @@ export let isiTabel = `<tbody>
     </div>
   </td>
   <td class="text-left">#TEMA#</td>
+  <td>
+  <div class="w-auto">
+        <p class="text-xs font-semibold text-coolGray-800">#NAMADOSEN#</p>
+        <p class="text-xs font-semibold text-coolGray-800">#EMAIL#</p>
+    </div>
+    </td>
   <td>#TANGGAL#</td>
   <td>#HARI#</td>
 </tr>
