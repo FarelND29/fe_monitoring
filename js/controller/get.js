@@ -12,7 +12,7 @@ function isiRow(value) {
     .replace('#NPM#', value.ortu.anak.npm)
     .replace('#NOHPANAK#', value.ortu.anak.phone_number)
     .replace('#TEMA#', value.tema.nama_tema)
-    .replace('#NAMADOSEN#', value.dosen.namadosen)
+    .replace('#NAMADOSEN#', value.dosen.nama_dosen)
     .replace('#EMAIL#', value.dosen.email) 
     .replace('#TANGGAL#', value.tanggal)
     .replace('#HARI#', value.hari)
