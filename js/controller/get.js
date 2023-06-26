@@ -6,14 +6,14 @@ export function isiTableMonitoring(results) {
 }
 function isiRow(value) {
   let content = isiTabel
-    .replace('#NAMAORTU#', value.ortu.nama_ot)
-    .replace('#NOHPORTU#', value.ortu.phone_number)
-    .replace('#NAMAANAK#', value.ortu.anak.nama)
-    .replace('#NPM#', value.ortu.anak.npm)
-    .replace('#NOHPANAK#', value.ortu.anak.phone_number)
-    .replace('#TEMA#', value.tema.nama_tema)
-    .replace('#NAMADOSEN#', value.Dosen.nama_dosen)
-    .replace('#EMAIL#', value.Dosen.email) 
+    .replace('#NAMAORTU#', value.ortu?value.ortu.nama_ot:"#NAMAORTU#")
+    .replace('#NOHPORTU#', value.ortu?value.ortu.phone_number:"#NOHPORTU#")
+    .replace('#NAMAANAK#', value.ortu?value.ortu.anak:"#NAMAANAK#")
+    .replace('#NPM#', value.ortu?value.ortu.npm:"#NPM#")
+    .replace('#NOHPANAK#', value.ortu?value.ortu.phone_number:"#NOHPANAK#")
+    .replace('#TEMA#', value.tema?value.tema.nama_tema:"#TEMA#")
+    .replace('#NAMADOSEN#', value.Dosen?value.Dosen.nama_dosen:"#NAMADOSEN#")
+    .replace('#EMAIL#', value.Dosen?value.Dosen.email:"#EMAIL#") 
     .replace('#TANGGAL#', value.tanggal)
     .replace('#HARI#', value.hari)
     .replace('#WARNA#', getRandomColor())
