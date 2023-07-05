@@ -4,20 +4,20 @@ import { urlPOST, AmbilResponse } from '../config/url_post.js';
 
 function pushData() {
   let data = {
-    orangtua: {
+    ortu: {
       nama_ot: getValue('nama_ot'),
       phone_number: getValue('phone_number'),
       anak: {
         nama: getValue('nama'),
         npm: parseInt(getValue('NPM')),
-        Jekel: getValue('jekel'),
+        jekel: getValue('jekel'),
         phone_number: getValue('phone_number'),
       },
     },
     tema: {
       nama_tema: getValue('nama_tema'),
     },
-    dosenwali: {
+    dosen: {
       nama_dosen: getValue('nama_dosen'),
       alamat: getValue('alamat'),
       phone_number: getValue('phone_number'),
