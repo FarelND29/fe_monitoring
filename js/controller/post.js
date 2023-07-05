@@ -9,7 +9,7 @@ function pushData() {
       nama_ot: getValue('nama_ot'),
       phone_number: getValue('phone_number'),
       anak: {
-        Nama: getValue('nama'),
+        nama: getValue('nama'),
         NPM: parseInt(getValue('NPM')),
         Jekel: getValue('Jekel'),
         phone_number: getValue('phone_number')
