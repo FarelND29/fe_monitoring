@@ -1,4 +1,4 @@
-export let urlPOST = 'https://farel-app.herokuapp.com/ins';
+export let urlPOST = 'https://farel-app.herokuapp.com/ins/monitoring';
 
 export function AmbilResponse(result) {
   console.log(result); //menampilkan response API pada console

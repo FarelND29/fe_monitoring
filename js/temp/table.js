@@ -10,6 +10,7 @@ export let isiTabel = `<tbody>
     <div class="w-auto">
         <p class="text-xs font-semibold text-coolGray-800">#NAMAANAK#</p>
         <p class="text-xs font-semibold text-coolGray-800">#NPM#</p>
+        <p class="text-xs font-semibold text-coolGray-800">#JEKEL#</p>
         <p class="text-xs font-medium text-coolGray-500">#NOHPANAK#</p>
     </div>
   </td>
@@ -17,6 +18,8 @@ export let isiTabel = `<tbody>
   <td>
   <div class="w-auto">
         <p class="text-xs font-semibold text-coolGray-800">#NAMADOSEN#</p>
+        <p class="text-xs font-semibold text-coolGray-800">#ALAMAT#</p>
+        <p class="text-xs font-semibold text-coolGray-800">#NOHPDOSEN#</p>
         <p class="text-xs font-semibold text-coolGray-800">#EMAIL#</p>
     </div>
     </td>
