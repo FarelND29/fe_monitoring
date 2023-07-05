@@ -3,21 +3,19 @@ import { onClick, getValue } from 'https://bukulapak.github.io/element/process.j
 import { urlPOST, AmbilResponse } from '../config/url_post.js';
 
 function pushData() {
-
   let data = {
     orangtua: {
       nama_ot: getValue('nama_ot'),
       phone_number: getValue('phone_number'),
       anak: {
         nama: getValue('nama'),
-        NPM: parseInt(getValue('NPM')),
-        Jekel: getValue('Jekel'),
-        phone_number: getValue('phone_number')
-      }
-
+        npm: parseInt(getValue('NPM')),
+        Jekel: getValue('jekel'),
+        phone_number: getValue('phone_number'),
+      },
     },
     tema: {
-      nama_tema: getValue('nama_tema')
+      nama_tema: getValue('nama_tema'),
     },
     dosenwali: {
       nama_dosen: getValue('nama_dosen'),
@@ -27,7 +25,7 @@ function pushData() {
     },
     tanggal: getValue('tanggal'),
     hari: getValue('hari'),
-        }
+  };
   postData(urlPOST, data, AmbilResponse);
 }
 
