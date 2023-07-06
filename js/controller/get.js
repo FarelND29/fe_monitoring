@@ -19,6 +19,8 @@ function isiRow(value) {
     .replace('#EMAIL#', value.dosen ? value.dosen.email : '#EMAIL#')
     .replace('#TANGGAL#', value.tanggal)
     .replace('#HARI#', value.hari)
+    .replace("#IDEDIT#", value._id)
+    .replace("#IDHAPUS#", value._id)
     .replace('#WARNA#', getRandomColor())
     .replace(/#WARNALOGO#/g, getRandomColorName());
   addInner('iniTabel', content);
