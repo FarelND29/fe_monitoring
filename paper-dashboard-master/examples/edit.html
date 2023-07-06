@@ -2,7 +2,7 @@
 =========================================================
 * Paper Dashboard 2 - v2.0.1
 =========================================================
-
+ 
 * Product Page: https://www.creative-tim.com/product/paper-dashboard-2
 * Copyright 2020 Creative Tim (https://www.creative-tim.com)
 
@@ -30,6 +30,7 @@ Coded by www.creative-tim.com
     <link href="../assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="../assets/demo/demo.css" rel="stylesheet" />
+    <script type="module" src="../../js/temp/fetch_edit.js"></script>
   </head>
 
   <bod class="">
@@ -173,7 +174,7 @@ Coded by www.creative-tim.com
             <div class="w-full">
               <div class="card card-user">
                 <div class="card-header">
-                  <h5 class="card-title">Insert Data Monitoring</h5>
+                  <h5 class="card-title">Edit Data Monitoring</h5>
                 </div>
                 <div class="card-body">
                   <!-- <form> -->
@@ -187,7 +188,7 @@ Coded by www.creative-tim.com
                       <div class="col-md-6 pl-1">
                         <div class="form-group">
                           <label>No Handphone Orang Tua</label>
-                          <input id="phone_number" type="text" class="form-control" placeholder="08123456789" />
+                          <input id="phone_number_ot" type="text" class="form-control" placeholder="08123456789" />
                         </div>
                       </div>
                     </div>
@@ -201,7 +202,7 @@ Coded by www.creative-tim.com
                       <div class="col-md-2 px-1">
                         <div class="form-group">
                           <label>NPM</label>
-                          <input id="NPM" type="number" class="form-control" placeholder="NPM" />
+                          <input id="npm" type="number" class="form-control" placeholder="NPM" />
                         </div>
                       </div>
                       <div class="col-md-3 px-1">
@@ -213,7 +214,7 @@ Coded by www.creative-tim.com
                       <div class="col-md-4 pl-1">
                         <div class="form-group">
                           <label>No Handpone Mahasiswa</label>
-                          <input id="phone_number" type="text" class="form-control" placeholder="No HP Mahasiswa" />
+                          <input id="phone_number_mhs" type="text" class="form-control" placeholder="No HP Mahasiswa" />
                         </div>
                       </div>
                     </div>
@@ -241,7 +242,7 @@ Coded by www.creative-tim.com
                       <div class="col-md-6 pr-1">
                         <div class="form-group">
                           <label>No Handphone Dosen</label>
-                          <input id="phone_number" type="text" class="form-control" placeholder="No Handphone Dosen" />
+                          <input id="phone_number_dosen" type="text" class="form-control" placeholder="No Handphone Dosen" />
                         </div>
                       </div>
                       <div class="col-md-6 pr-1">
@@ -267,7 +268,8 @@ Coded by www.creative-tim.com
                     </div>
                     <div class="row">
                       <div class="update ml-auto mr-auto">
-                        <button id="button" class="btn btn-primary btn-round">Insert</button>
+                        <a class="btn btn-primary btn-round" href="tables.html">Cancel</a>
+                        <button id="button" class="btn btn-primary btn-round">Change</button>
                       </div>
                     </div>
                   <!-- </form> -->
@@ -313,8 +315,7 @@ Coded by www.creative-tim.com
     <script src="../assets/js/plugins/bootstrap-notify.js"></script>
     <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="../assets/demo/demo.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-    <script type="module" src="../../js/fetch_edit.js"></script>
+    <script type="module" src="../../js/temp/fetch_edit.js"></script>
     <script type="module" src="../../js/controller/put.js"></script>
   </body>
 </body>
