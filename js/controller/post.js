@@ -6,12 +6,12 @@ function pushData() {
   let data = {
     ortu: {
       nama_ot: getValue('nama_ot'),
-      phone_number: getValue('phone_number'),
+      phone_number: getValue('phone_number_ot'),
       anak: {
         nama: getValue('nama'),
-        npm: parseInt(getValue('NPM')),
+        npm: parseInt(getValue('npm')),
         jekel: getValue('jekel'),
-        phone_number: getValue('phone_number'),
+        phone_number: getValue('phone_number_mhs'),
       },
     },
     tema: {
@@ -20,7 +20,7 @@ function pushData() {
     dosen: {
       nama_dosen: getValue('nama_dosen'),
       alamat: getValue('alamat'),
-      phone_number: getValue('phone_number'),
+      phone_number: getValue('phone_number_dosen'),
       email: getValue('email'),
     },
     tanggal: getValue('tanggal'),
