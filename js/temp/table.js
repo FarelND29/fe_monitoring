@@ -25,12 +25,15 @@ export let isiTabel = `<tbody>
     </td>
   <td>#TANGGAL#</td>
   <td>#HARI#</td>
-  <th class="whitespace-nowrap pr-4 bg-white text-sm font-medium text-coolGray-800">
+  <th class="whitespace-nowrap bg-white text-sm font-medium text-coolGray-800">
+<a type="button"  href="detailed.html?monitoringId=#IDETAILED#"> detailed 
+</a>
+|
 <a type="button" href="edit.html?monitoringId=#IDEDIT#"> Edit
 </a>
 |
-<button type="button" id="del_button" onclick="deleteData('#IDHAPUS#')"> Delete
-</button>
+<a style="color:red" type="button" id="del_button" onclick="deleteData('#IDHAPUS#')"> Delete
+</a>
 </th>
 </tr>
 </tbody>`;
