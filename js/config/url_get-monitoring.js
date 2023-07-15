@@ -1,4 +1,4 @@
-//mendapatkan parameter dari url
+//mendapatkan parameter dari url Monitoring
 const urlParams = new URLSearchParams(window.location.search);
 const monitoringId = urlParams.get('monitoringId');
 

@@ -1,4 +1,4 @@
-export function isiData(results) {
+export function isiDataMonitoring(results) {
   const inputMapping = [
     { id: 'nama_ot', path: 'ortu.nama_ot' },
     { id: 'phone_number_ot', path: 'ortu.phone_number' }, //index: 0, property: 'nama_dokter'},

@@ -1,6 +1,6 @@
-function deleteData(IDHAPUS) {
-  var monitoringId = IDHAPUS;
-  var target_url = 'https://farel-app.herokuapp.com/del/monitoring/' + monitoringId;
+function deleteDataMahasiswa(IDHAPUS) {
+  var mahasiswaId = IDHAPUS;
+  var target_url = 'https://farel-app.herokuapp.com/del/mahasiswa/' + mahasiswaId;
 
   var requestOptions = {
     method: 'DELETE',

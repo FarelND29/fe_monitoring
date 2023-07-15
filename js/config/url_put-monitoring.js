@@ -6,5 +6,5 @@ export let urlPUT = 'https://farel-app.herokuapp.com/upd/monitoring/' + monitori
 export function AmbilResponse(result) {
   console.log(result); // menampilkan response API pada console
   alert(result.message);
-  window.location.href = 'tables.html';
+  window.location.href = 'tables_monitoring.html';
 }

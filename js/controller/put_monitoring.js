@@ -1,6 +1,6 @@
-import { postData } from 'https://bukulapak.github.io/api/process.js';
+import { putData } from 'https://bukulapak.github.io/api/process.js';
 import { onClick, getValue } from 'https://bukulapak.github.io/element/process.js';
-import { urlPOST, AmbilResponse } from '../config/url_post.js';
+import { urlPUT, AmbilResponse } from '../config/url_put-monitoring.js';
 
 function pushData() {
   let data = {
@@ -26,7 +26,7 @@ function pushData() {
     tanggal: getValue('tanggal'),
     hari: getValue('hari'),
   };
-  postData(urlPOST, data, AmbilResponse);
+  putData(urlPUT, data, AmbilResponse);
 }
 
-onClick('button', pushData);
+onClick('button', pushData)
