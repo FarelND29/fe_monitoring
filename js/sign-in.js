@@ -26,7 +26,7 @@ function signIn() {
             timer: 2000
           }).then(() => {
             // Redirect to index.html
-            window.location.href = "tables.html";
+            window.location.href = "tables_monitoring.html";
           });
         } else {
           // Display signin error message using SweetAlert
