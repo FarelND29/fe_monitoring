@@ -29,7 +29,7 @@ export let isiTabel = `<tbody>
 <a type="button"  href="detailed.html?monitoringId=#IDETAILED#"> detailed 
 </a>
 |
-<a type="button" href="edit_monitoring.html?monitoringId=#IDEDIT#"> Edit
+<a type="button" href="edit_Monitoring.html?monitoringId=#IDEDIT#"> Edit
 </a>
 |
 <a style="color:red" type="button" id="del_button" onclick="deleteDataMonitoring('#IDHAPUS#')"> Delete
